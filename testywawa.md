@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="assets/css/style.scss">
-
 i have no idea what is going on
 
 
