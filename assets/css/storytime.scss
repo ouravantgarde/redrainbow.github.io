@@ -37,7 +37,7 @@ html,body {
 }
 
 body {
-    color: rgba(255,224,224,1);
+    color: rgba(255,240,255,1);
     font-family: "Courier Prime", monospace;
     font-size: 18px;
     line-height: 1.6;
@@ -57,14 +57,14 @@ h6 {
 
 hr {
     margin: 2rem;
-    color: rgba(0,0,255,1)
+    border-color: rgba(255,255,240,1)
 }
 
 p {
     margin: 1.5rem 0
 }
 
-.w {
+.center {
     min-width: 30rem;
     max-width: 40vw;
     min-height: 100vh;
@@ -76,7 +76,7 @@ p {
 }
 
 code {
-    color: rgba(32,0,0,1);
+    color: rgba(48,0,0,1);
     background: white;
     font-size: 18px
 }
