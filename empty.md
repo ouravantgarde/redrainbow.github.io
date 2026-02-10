@@ -4,19 +4,17 @@ layout: storytime
 
 <h1>Is it empty?</h1>
 
-Another day spent down in Noxipolis, still trying to find any way to help the apocalyptic situation. For Avnlyla, there are also friends here. Beyond the architecture and the sprawling voids it rests on or the natural grounds it suffocates, beyond the mystery or the monsters. Familiar life. Living here as she would live in more familiar places, except in more variations of liminal. Are they living a dream, existing almost the same day to day, like something meant to be? Living a fantasy, being like animate statues or decoration, like sapient wildlife, like background characters.
+&nbsp;&nbsp;&nbsp;&nbsp;Another day spent down in Noxipolis, still trying to find any way to help the apocalyptic situation. For Avnlyla, there are also friends here. Beyond the architecture and the sprawling voids it rests on or the natural grounds it suffocates, beyond the mystery or the monsters. Familiar life. Living here as she would live in more familiar places, except in more variations of liminal. Are they living a dream, existing almost the same day to day, like something meant to be? Living a fantasy, being like animate statues or decoration, like sapient wildlife, like background characters.
 
-Yet these ones show or believe themselves to have an entire history and life of adventure, or whatever strange fascination or purpose they feel. It reminds her of when she had a clear purpose, and spent any other time talking with few friends. Maybe here she is a friend to them, even the ones that seem to exist isolated, she likes to think. They are usually pleasant beings, despite everything.
+&nbsp;&nbsp;&nbsp;&nbsp;Yet these ones show or believe themselves to have an entire history and life of adventure, or whatever strange fascination or purpose they feel. It reminds her of when she had a clear purpose, and spent any other time talking with few friends. Maybe here she is a friend to them, even the ones that seem to exist isolated, she likes to think. They are usually pleasant beings, despite everything.
 
-She likes it for this reason; Caroline and her always loved art and creation, Avnlyla herself never losing the admiration for architecture... Heavens, she wants to be lost here, a place her friend made, a desire to be lost here is something far removed from helping others, a self-indulgent and self-created purpose of exploration and curiosity. Of course, she is here for a reason she is still passionate about, she wants to help everyone, her allies ne-
+&nbsp;&nbsp;&nbsp;&nbsp;She likes it for this reason; Caroline and her always loved art and creation, Avnlyla herself never losing the admiration for architecture... Heavens, she wants to be lost here, a place her friend made, a desire to be lost here is something far removed from helping others, a self-indulgent and self-created purpose of exploration and curiosity. Of course, she is here for a reason she is still passionate about, she wants to help everyone, her allies ne-
 
-"Ava? Your mind is racing, I promise you this place won't disappear when this is all over," Mare had stopped Avnlyla's runaway thoughts, with that usual soft androgynous voice that seems to appear from both inside and outside her head. Not loud, but omnipresent. Directionless.
-"You are daydreaming. Not to mean any disrespect."
+&nbsp;&nbsp;&nbsp;&nbsp;"Ava? Your mind is racing, I promise you this place won't disappear when this is all over," Mare had stopped Avnlyla's runaway thoughts, with that usual soft androgynous voice that seems to appear from both inside and outside her head. Not loud, but omnipresent. Directionless. <br>&nbsp;&nbsp;&nbsp;&nbsp;"You are daydreaming. Not to mean any disrespect."
 
-Avnlyla could feel Mare's sincerity, and even catch the fleeting glimpses of his own emotions in his communication. She knows Mare values similar things here.
+&nbsp;&nbsp;&nbsp;&nbsp;Avnlyla could feel Mare's sincerity, and even catch the fleeting glimpses of his own emotions in his communication. She knows Mare values similar things here.
 
-"Could you not do that? I was..." Avnlyla is unsure how to really speak here, the problem is over already.
-"Just, these are my thoughts- I wasn't trying to speak."
+&nbsp;&nbsp;&nbsp;&nbsp;"Could you not do that? I was..." Avnlyla is unsure how to really speak here, the problem is over already.<br>&nbsp;&nbsp;&nbsp;&nbsp;"Just, these are my thoughts- I wasn't trying to speak."
 
 "I was just worried."
 
