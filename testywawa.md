@@ -51,8 +51,10 @@ WHAT! The wawas above have FAILED their markdown! HTML it is...
 >
 > Can't think of any famous wawa quotes...
 >
+>
 >> Wawa Quoteception
-<br>
+
+&nbsp;
 
 ```lua
 -- The Codey Wawa
