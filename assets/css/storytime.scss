@@ -13,7 +13,7 @@ html,body {
 body {
     color: white;
     font-family: monospace;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.4;
     margin: 0;
     min-height: 100%;
@@ -38,12 +38,14 @@ p {
 }
 
 .w {
-    max-width: 768px;
+    min-width: 40rem;
+    max-width: 40vw;
     min-height: 100vh;
     margin: 0 auto;
     padding: 4rem 2rem;
-    background: black;
-    border: thin solid #f0f8ff
+    background: rgba(0, 0, 0, 0.93);
+    border-left: 5px solid rgba(32, 64, 64, 0.25);
+    border-right: 5px solid rgba(32, 64, 64, 0.25)
 }
 
 code {
