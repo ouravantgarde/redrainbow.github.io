@@ -29,11 +29,11 @@
 }
 
 html,body {
-    background-image: url('../../red-rainbow-storytime-tempbg.jpg');
-    background-color: black;
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background: black url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
+    background-position: center;
     background-size: cover;
+    scrollbar-color: rgb(255,255,255) rgba(0,0,0,0);
+    scroll-behavior: smooth;
     overscroll-behavior: none
 }
 
@@ -41,25 +41,37 @@ html,body {
     min-width: 30rem;
     max-width: 40vw;
     min-height: 100vh;
-    margin: 0 auto;
-    padding: 4rem 2rem;
+    margin: auto;
     background: rgba(0,0,0,0.93);
-    border-left: 7px solid rgba(32,64,64,0.20);
-    border-right: 7px solid rgba(32,64,64,0.20)
-}
-
-#tocsidebar {
-    color: rgba(255,247,250,1)
-}
-
-body {
-    color: rgba(255,247,250,1);
+    border-left: 7px solid rgba(32,64,64,0.2);
+    border-right: 7px solid rgba(32,64,64,0.2);
+    color: rgb(255,247,250);
     font-family: "Courier Prime", monospace;
     font-size: 18px;
     line-height: 1.6;
-    margin: 0;
-    min-height: 100%;
+    padding: 4rem 2rem;
     overflow-wrap: break-word
+}
+
+#tocsidebar {
+    position: fixed;
+    width: 15rem;
+    min-height: 80vh;
+    max-height: 80vh;
+    margin-left: -350px;
+    overflow-y: auto;
+    direction: rtl;
+    scrollbar-color: rgb(255,255,255,0.15) rgba(0,0,0,0.70);
+    scrollbar-width: thin;
+    scrollbar-gutter: stable both-edges;
+    background: rgba(0,0,0,0.70);
+    outline: thin dashed white
+}
+
+#toc {
+    direction: ltr;
+    padding: 2rem 0rem 0rem 1rem;
+    color: white;
 }
 
 h2,h3,h4,h5 {
