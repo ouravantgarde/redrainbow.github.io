@@ -88,6 +88,9 @@ Who let this wawa be so scrumptious?
 
 <img src="https://static1.e621.net/data/41/43/4143dbf4121905f9dc4aee752d9af7c1.png" alt="The Scrumpy Wawa" style="width:512px;height:512px;">
 
+Here I am testing if liquid variables do indeed work in markdown. Below is a negative number, but it should be filtered through absolute value
+{{ -9 | abs }}
+
 
 
 
