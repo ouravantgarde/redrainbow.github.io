@@ -9,6 +9,10 @@ layout: storytime
 
 {{ find_my_toc }}
 
+* bees
+
+:TOC
+
 i have no idea what is going on
 
 
