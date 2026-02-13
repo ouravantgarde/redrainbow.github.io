@@ -2,7 +2,11 @@
 layout: storytime
 ---
 {% include captures.html %}
-{% assign tocsidebar = {:toc} %}
+{% capture tocsidebar %}
+
+{:toc}
+
+{% endcapture %}
 
 i have no idea what is going on
 
