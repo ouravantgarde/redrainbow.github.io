@@ -51,11 +51,12 @@ html,body {
     outline: thin dashed rgba(255,255,255,0.8)
 }
 
-#toc {
+.toc {
     direction: ltr;
     padding: 2rem 0rem 2rem 1rem;
     font-family: "VGA New", serif;
     color: var(--manawhite);
+    list-style-type: none
 }
 
 h2,h3,h4,h5,h6 {
