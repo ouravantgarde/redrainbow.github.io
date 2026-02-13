@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/testing.css' | relative_url }}">
+    <title>Red Rainbow</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">  
 
+</head>
+  
+<body>
+
+    <div id="storyentry">
+            <div id="tocsidebar">
+                
+                {% include toc.html html=content flat_toc = true class = 'toc' item_class = 'toc' %}
+                
+            </div>
+
+        {{ content | replace: 'abbr title=', 'abbr data-title=' }}
+    
+    </div>
+
+</body>
+</html>
