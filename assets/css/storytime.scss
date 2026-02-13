@@ -5,10 +5,10 @@
 @import url(https://db.onlinewebfonts.com/c/c94e49765ec47b72f1cec8a8c4ef14c5?family=Courier+Prime);
 @import url(https://db.onlinewebfonts.com/c/9263dd1028ba2eef4981450e97433b11?family=VGA+New);
 
---viowhite: rgb(250,242,250);
---manawhite: rgb(230,230,255);
-
 html,body {
+    --viowhite: rgb(250,242,250);
+    --manawhite: rgb(230,230,255);
+    
     background: black url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
