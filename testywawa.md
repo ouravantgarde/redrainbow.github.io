@@ -3,8 +3,11 @@ layout: storytime
 ---
 
 {% capture find_my_toc %}
+
 how many bees
+
 {:toc}
+
 {% endcapture %}
 
 i have no idea what is going on
