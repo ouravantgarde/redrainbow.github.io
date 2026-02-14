@@ -21,7 +21,7 @@ No it doesn't work, instead you have to make a darn `&nbsp;` for every empty spa
 
 &nbsp;&nbsp;&nbsp;&nbsp;See, now THIS is indented! This is going to be annoying to do the hundreds of times I must...
 
-Adding this line to update the repo to get it to rebuild since it like, broke? Uping the number here every time I do this: 5
+Adding this line to update the repo to get it to rebuild since it like, broke? Uping the number here every time I do this: 6
 
 Dolls, Dogs, and Wawas, prepare thyself... FOR ALL MARKUP EVER!!!! That's right, In order to make sure I can always see the effects of if I mess with the style of any given format done in the md files I am using...
 
