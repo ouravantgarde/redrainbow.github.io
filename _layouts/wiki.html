@@ -12,15 +12,12 @@
   
 <body>
 
-    <div id="wiki">
-            <div class="toc">
-                
-                {% include toc.html html=content flat_toc = true %}
-                
-            </div>
+    <div class="toc">
+        {% include toc.html html=content flat_toc = true %}      
+    </div>
 
+    <div id="wiki">
         {{ content | replace: 'abbr title=', 'abbr data-title=' }}
-    
     </div>
 
 </body>
