@@ -27,11 +27,11 @@ Dolls, Dogs, and Wawas, prepare thyself... FOR ALL MARKUP EVER!!!! That's right,
 
 I am going to shrimply type out All Markdown, and then All HTML that isn't already covered by Markdown (ignoring the tooltips above that is cool :>... And ones I don't see myself using ever...)
 
-# Heady Wawa 1
+# Heady Wawa 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-## Heady Wawa 2
+## Heady Wawa 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-### Heady Wawa 3
+### Heady Wawa 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 Heady Wawa 6, which I am NO LONGER using as the subtitly wawa, as that would conflict with the autotoc. I will make a custom id for the subtitle style in the future
 
