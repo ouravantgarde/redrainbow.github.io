@@ -46,7 +46,7 @@ html,body {
     scrollbar-width: thin;
     /*scrollbar-gutter: stable both-edges;*/
     background: rgba(0,0,0,0.15);
-    backdrop-filter: grayscale() blur(1.5px);
+    backdrop-filter: grayscale(1) blur(1.5px);
     outline: thin solid #fff
 }
 
