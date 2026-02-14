@@ -129,11 +129,12 @@ Killed after Wail: Distressing.
 > &nbsp;
 > &nbsp;
 > &nbsp;
+>
 > Hello? Metal prevents flight, there are songs outside.
 > Rot is stopped by taking care of myself every hour.
 > Preening myself every hour to keep myself well.
 > There are feathers outside, cleaning myself is unfair.
->
+> <br>
 > Atrophy rots.
 >
 > Hello?
