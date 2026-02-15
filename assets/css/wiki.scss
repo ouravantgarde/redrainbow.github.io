@@ -5,9 +5,10 @@
 @import url(https://db.onlinewebfonts.com/c/c94e49765ec47b72f1cec8a8c4ef14c5?family=Courier+Prime);
 @import url(https://db.onlinewebfonts.com/c/9263dd1028ba2eef4981450e97433b11?family=VGA+New);
 
+$viowhite: rgb(255,235,240);
+$manawhite: rgb(225,225,255);
+
 html,body {
-    --viowhite: rgb(255,235,240);
-    --manawhite: rgb(225,225,255);
     background: #000 url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
@@ -31,7 +32,7 @@ html,body {
     -10px 0 50px 30px rgba(0,0,0,0.20) inset,
     0.5px 0.5px 0px 0.5px rgba(0,255,255,0.50) inset, 
     -0.5px -0.5px 0px 0.5px rgba(255,0,255,0.35) inset;
-    color: var(--viowhite);
+    color: $viowhite;
     font-family: "Courier Prime", monospace;
     font-size: clamp(14px, #{"1vw - 0.15rem"}, 1.7vw);
     line-height: 1.6;
@@ -99,7 +100,7 @@ a:hover {
 }
 
 h2,h3,h4,h5,h6 {
-    color: var(--viowhite);
+    color: $viowhite;
     margin-top: 1.5rem
 }
 
@@ -129,7 +130,7 @@ blockquote p {
 
 code {
     color: rgb(64,0,0);
-    background: var(--viowhite);
+    background: $viowhite;
     font-size: 18px
 }
 
