@@ -17,7 +17,7 @@
     </nav>
 
     <main id="wiki" role="main">
-        {{ content | replace: 'abbr title=', 'abbr data-title=' }}
+        {{ content | replace: 'abbr title=', 'abbr data-title=' | replace: '$$pa', '<span style="color: darkviolent">' | replace: ']$', '</span>'  }}
     </main>
 
 </body>
