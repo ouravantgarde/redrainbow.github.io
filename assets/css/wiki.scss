@@ -9,7 +9,7 @@ $viowhite: rgb(255,235,240);
 $manawhite: rgb(225,225,255);
 
 html,body {
-    background: #000 url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
+    background: black url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
     overscroll-behavior: none;
@@ -18,7 +18,7 @@ html,body {
 #wiki {
     min-width: 600px;
     max-width: min(40vw, 1040px);
-    height: 94vh;
+    height: 94vh; // 100 - margin vh*2
     margin: 3vh auto 0;
     overflow-y: auto;
     scrollbar-gutter: stable both-edges;
@@ -28,84 +28,25 @@ html,body {
     outline: thin solid #ffffff;
     border-radius: 15px;
     box-shadow: 
-    -10px 0 150px 30px rgba(0,0,0,0.10),
-    -10px 0 50px 30px rgba(0,0,0,0.20) inset,
-    0.5px 0.5px 0px 0.5px rgba(0,255,255,0.50) inset, 
-    -0.5px -0.5px 0px 0.5px rgba(255,0,255,0.35) inset;
+    -10px 0 150px 30px rgba(0,0,0,0.10), // Dimmer
+    -10px 0 50px 30px rgba(0,0,0,0.20) inset, // Inside dimmer
+    0.5px 0.5px 0px 0.5px rgba(0,255,255,0.50) inset, // Line Distortion
+    -0.5px -0.5px 0px 0.5px rgba(255,0,255,0.35) inset; // Line Distortion, adjusted for red bias
     color: $viowhite;
     font-family: "Courier Prime", monospace;
-    font-size: clamp(14px, #{"1vw - 0.15rem"}, 1.7vw);
+    font-size: clamp(14px, #{"1vw - 0.15rem"}, 1.7vw); // For some reason Jekyll hated me for trying to subtract different units from eachother(a standard practice elsewhere!!). The math here is interpolated to be sassy
     line-height: 1.6;
     padding: 4em 2em;
     overflow-wrap: break-word
 }
 
-.toc {
-    position: absolute;
-    width: 324px;
-    height: 100vh;
-    margin-top: -3vh;
-    margin-left: calc(max(30vw, 450px) - 450px);
-    overflow-y: auto;
-    overflow-x: clip;
-    direction: rtl;
-    scrollbar-color: white transparent;
-    scrollbar-width: thin;
-    background: rgba(0,0,0,0.15);
-    backdrop-filter: grayscale(1) blur(1.5px);
-    outline: thin solid #fff
-}
-
-.toc ul {
-    display: flex;
-    flex-direction: column;
-    direction: ltr
-}
-
-.toc li {
-    margin: 30px 0px 0px 0px;
-    padding-left: 1rem;
-    background: rgba(255,255,255,0.1);
-    font-family: "VGA New", serif;
-    font-size: 20px;
-    letter-spacing: 3px;
-    line-height: 2.5;
-    white-space: nowrap;
-    transition: background 0.2s,line-height 0.2s
-}
-
-.toc li:hover {
-    background: rgba(255,255,255,0.8);
-    line-height: 3;
-    box-shadow: 0px 2px rgba(0,255,255,0.5),0px -2px rgba(255,0,0,0.5);
-    transition: background 0.2s,box-shadow 0.2s
-}
-
-.toc li:hover:active {
-    background: black;
-    box-shadow: 12px 6px rgba(255,0,0,0.9),-12px -6px rgba(0,255,255,0.9)
-}
-
-.toc ::selection {
-    background: transparent
-}
-
-a {
-    display:inline-block;
-    color: rgb(160,90,130)
-}
-
-a:hover {
-    text-decoration: none
-}
-
-h2,h3,h4,h5,h6 {
+h1 {
     color: $viowhite;
     margin-top: 1.5rem
 }
 
 hr {
-    margin: 2rem;
+    margin: 1rem;
     border-color: $manawhite
 }
 
@@ -131,7 +72,7 @@ blockquote p {
 code {
     color: rgb(64,0,0);
     background: $viowhite;
-    font-size: 18px
+    font-size: clamp(14px, #{"1vw - 0.15rem"}, 1.7vw)
 }
 
 div.highlighter-rouge code {
@@ -140,6 +81,76 @@ div.highlighter-rouge code {
     white-space: pre-wrap;
     padding: 1rem
 }
+
+
+/*Table of Contents*/
+
+
+.toc {
+    position: absolute;
+    width: 324px;
+    height: 100vh;
+    margin-top: -3vh;
+    margin-left: calc(max(30vw, 450px) - 450px); //This "left" is all in reverse, because the direction here is set to rtl so the scrollbar is on the left. The function here helps compatibility all the way to 720p monitors.
+    overflow-y: auto;
+    overflow-x: clip;
+    direction: rtl;
+    scrollbar-color: white transparent;
+    scrollbar-width: thin;
+    background: rgba(0,0,0,0.15);
+    backdrop-filter: grayscale(1) blur(1.5px);
+    outline: thin solid #fff
+}
+
+.toc ul {
+    display: flex;
+    flex-direction: column;
+    direction: ltr //The direction is set back so all our text is normal!
+}
+
+/*Buttons do not work without javascript. Here, we can make a link into a indistinguishable button by using the line height to take up the entire "padding" we want.
+Then, we use empty entities to fill the rest of the "button's" length. Anywhere you click on the "button" works now, without any javascript*/
+
+.toc li {
+    margin: 30px 0px 0px 0px;
+    padding-left: 1rem;
+    background: rgba(255,255,255,0.1);
+    font-family: "VGA New", serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 2.5;
+    white-space: nowrap;
+    transition: background 0.2s,line-height 0.2s
+}
+
+.toc li:hover {
+    background: rgba(255,255,255,0.8);
+    line-height: 3; 
+    box-shadow: 0px 2px rgba(0,255,255,0.5),0px -2px rgba(255,0,0,0.5);
+    transition: background 0.2s,box-shadow 0.2s
+}
+
+.toc li:hover:active {
+    background: black;
+    box-shadow: 12px 6px rgba(255,0,0,0.9),-12px -6px rgba(0,255,255,0.9)
+}
+
+.toc ::selection {
+    background: transparent //To further make them feel like true buttons, we can "disable" highlighting them
+}
+
+a {
+    display:inline-block;
+    color: rgb(160,90,130)
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* My tooltips */
+
 
 abbr {
     text-shadow: -0.8px 0px red;
@@ -180,7 +191,4 @@ abbr:hover::after{
     transition: opacity 0.3s, visibility 0.3s, color 0.3s, border 1s, text-shadow 1s, box-shadow, 1s
 }
 
-img {
-    display: block;
-    margin: auto
-}
+
